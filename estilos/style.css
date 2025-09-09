@@ -1,0 +1,98 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:  #5F2C82;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+main{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+    
+    
+}
+#imagem{
+   height: 150px;
+   background-image: url(../imgs/metal.jpg);
+   background-position: center center;
+   background-size: cover;
+   
+}
+label{
+    color: white;
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+p#welcome{
+    font-size: 0.8rem;
+}
+
+
+.form{
+    width: 65%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+#login-geral{
+    padding: 10px;
+    
+}
+
+.login{
+
+    background-color: #5F2C82;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 98%;
+    
+}
+
+#entrar{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #68c2cadc;
+    border: 2px solid #419097;
+    color: white;
+}
+#entrar:hover{
+    background-color: #419097;
+    cursor: pointer;
+}
+#esquecisenha{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 2px solid #4C939A;
+    color: #4C939A;
+   
+}
+#esquecisenha:hover{
+    background-color: #20dbec50;
+    cursor: pointer;
+}
+
+
+
+

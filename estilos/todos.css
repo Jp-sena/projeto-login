@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px){
+    body{
+        background-image: linear-gradient(to bottom, #5F2C82, #4C939A);
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    } 
+    main{
+        width: 700px;
+        height: 300px;
+        
+    }
+    
+
+    #imagem{
+        width: 300px;
+        height: 100%;
+       
+    }    
+    .form{
+        width: 73.3%;
+    }
+    .login{
+        width: 98%;
+    }
+    #login-geral{
+        padding: 20px;
+        
+        position: relative;
+        left:48%;
+        top: -105%;
+        width: 300px;
+    }
+    
+    h1{
+    text-align: center;
+    padding-bottom:px;
+    font-size: 1.5rem;
+}
+p#welcome{
+    font-size: 0.8rem;
+    
+}
+
+}
+
+@media screen and (min-width: 990px) {
+   main{
+    height: 360px;
+    width: 70vw;
+    overflow: hidden;
+   }
+   h1{
+    font-size: 2rem;
+    padding-bottom: 19px;
+   }
+   p#welcome{
+    font-size: 1rem;
+    padding-bottom: 19px;
+   }
+   #imagem{
+    position: relative;
+    left: 60%;
+    width: 50vw;
+
+   }
+   #login-geral{
+    position: relative;
+    left: 2%;
+    top: -100%;
+    width: 34vw;
+   }
+   .login{
+    width: 33.7vw;
+   }
+   .form{
+    width: 25vw;
+    position: relative;
+    left: 4%;
+   }
+}
