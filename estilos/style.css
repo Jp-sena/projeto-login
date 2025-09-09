@@ -4,10 +4,11 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
-        background-image: linear-gradient(to bottom, #51606e, #152535);
-    }
+    background-image: linear-gradient(-60deg, #50606ecb, #0a1825);
+    height: 100vh;
+   
 }
+
 
 main{
     width: 300px;
@@ -20,15 +21,15 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    transition: width .3s,height .3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
 }
 section#imagem{
     background-image: url(../imgs/metall.jpg);
     background-size: cover;
     background-position: left center;
     width: 100%;
-    height: 150px;
+    height: 160px;
 
 }
 section#formulario{
@@ -37,8 +38,57 @@ section#formulario{
 }
 section#formulario>h1{
     text-align: center;
+    
 }
 section#formulario>p{
     text-align: justify;
-    padding-top: 20px;
+    padding: 10px 0px;
+}
+.fundo{
+    background-image: linear-gradient(to left, #868484, #1f1d1d);
+    margin-top: 2px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    color: beige;
+}
+.dados{
+    width: calc(200px - 10px);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.material-icons{
+    width: 40px;
+    padding-left: 5px;
+    transform: translateY(7px);
+}
+#entrar{
+    
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #1b578f;
+    color: white;
+    border-radius: 10px;
+    border: #1b578f;
+}
+#entrar:hover{
+    background-color: #0a1825 ;
+    cursor: pointer;
+}
+#esquecisenha{
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: #1f1d1d;
+    color: white;
+    border-radius: 10px;
+    border: #1f1d1d;
+
+}
+#esquecisenha:hover{
+    background-color: #5e5959;
+    cursor: pointer;
 }
