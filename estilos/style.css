@@ -1,98 +1,44 @@
 *{
-    
     padding: 0px;
     margin: 0px;
 }
-
 body{
-    background-color:  #5F2C82;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     
+        background-image: linear-gradient(to bottom, #51606e, #152535);
+    }
 }
+
 main{
-    background-color: white;
-    width: 250px;
+    width: 300px;
     height: 500px;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    background-color: rgba(245, 245, 220, 0.842);
+    border-radius: 15px;
     overflow: hidden;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
-    
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    transition: width .3s,height .3s;
 }
-#imagem{
-   height: 150px;
-   background-image: url(../imgs/metal.jpg);
-   background-position: center center;
-   background-size: cover;
-   
-}
-label{
-    color: white;
-    
-}
+section#imagem{
+    background-image: url(../imgs/metall.jpg);
+    background-size: cover;
+    background-position: left center;
+    width: 100%;
+    height: 150px;
 
-h1{
+}
+section#formulario{
+    padding: 20px;
+    
+}
+section#formulario>h1{
     text-align: center;
-    padding-bottom: 10px;
-    font-size: 1.5rem;
 }
-p#welcome{
-    font-size: 0.8rem;
+section#formulario>p{
+    text-align: justify;
+    padding-top: 20px;
 }
-
-
-.form{
-    width: 65%;
-    padding: 8px;
-    border-radius: 10px;
-    background-color: rgb(240, 240, 240);
-}
-#login-geral{
-    padding: 10px;
-    
-}
-
-.login{
-
-    background-color: #5F2C82;
-    padding: 2px;
-    border-radius: 10px;
-    margin-top: 5px;
-    width: 98%;
-    
-}
-
-#entrar{
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: #68c2cadc;
-    border: 2px solid #419097;
-    color: white;
-}
-#entrar:hover{
-    background-color: #419097;
-    cursor: pointer;
-}
-#esquecisenha{
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 10px;
-    border: 2px solid #4C939A;
-    color: #4C939A;
-   
-}
-#esquecisenha:hover{
-    background-color: #20dbec50;
-    cursor: pointer;
-}
-
-
-
-
