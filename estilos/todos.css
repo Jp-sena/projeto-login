@@ -1,4 +1,25 @@
-@media screen and  (min-width: 768px) {
+@media screen and (orientation: landscape) and (max-width: 768px){
+    main{
+    width: 500px;
+    height: 450px;
+}
+section#imagem{
+    height: 130px;
+
+}
+section#formulario{
+    padding: 20px;
+    
+}
+.dados{
+    width: 390px;
+    
+}
+}
+
+
+
+@media screen and (min-width: 768px) {
     body{
         background-image: linear-gradient(60deg, #50606ecb, #0a1825);
     }
