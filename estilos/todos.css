@@ -1,26 +1,40 @@
 @media screen and (orientation: landscape) and (max-width: 768px){
     main{
     width: 500px;
-    height: 360px;
+    height: 340px;
     }
     section#imagem{
-        height: 120px;
+        height: 100px;
 
     }
     section#formulario{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         
         padding: 4px;
     }
+    p{
+        width: 456px;
+    }
+    .fundo{
+        width: 456px;
+    }
     .dados{
-        width: 410px;
+        width: 380px;
+    }
+    #botoes{
+        display: flex;
+        justify-content: center;
     }
     
     #entrar{
-        width: 49.5%;
-
+        width: 46%;
+        margin-right:5px;
     }
     #esquecisenha{
-        width: 49.5%;
+        width: 46%;
         
     }
 }
